@@ -4,7 +4,7 @@ import { useDropzone } from 'react-dropzone';
 import { FaWindowClose } from 'react-icons/fa';
 
 interface ImageUploadProps {
-  onChange: (base64: string) => void;
+  onChange: (base64: any) => void;
   label: string;
   value?: string;
   disabled?: boolean;
